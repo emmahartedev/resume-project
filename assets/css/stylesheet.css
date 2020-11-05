@@ -9,6 +9,7 @@ header{
     padding-left:50px;
 }
 
+
 .name{
     font-family: "Exo", sans-serif;
     font-weight:400;
@@ -38,6 +39,7 @@ header{
     background-color: grey;
 }
 
+/*nav */ 
 .nav-bgc-home{
     background-color: rgb(197, 135, 19);
 }
@@ -52,4 +54,16 @@ header{
 
 .nav-bgc-download{
     background-color: rgb(78, 72, 72);
+}
+
+.list-inline-item:not(:last-child) {
+    margin:0;
+}
+
+.menu-container{
+    font-size:0
+}
+
+.menu-container li{
+    font-size:14px;
 }
