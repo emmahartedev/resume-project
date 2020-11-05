@@ -37,3 +37,19 @@ header{
 .bg-color-head{
     background-color: grey;
 }
+
+.nav-bgc-home{
+    background-color: rgb(197, 135, 19);
+}
+
+.nav-bgc-resume{
+    background-color: rgb(145, 17, 145);
+}
+
+.nav-bgc-contact{
+    background-color: rgb(67, 67, 192);
+}
+
+.nav-bgc-download{
+    background-color: rgb(78, 72, 72);
+}
