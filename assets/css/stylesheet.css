@@ -115,3 +115,17 @@ header{
     background: rgba(0,0,0,0.2);
     height:120px;
 }
+
+/*footer styling */
+
+.general-sub{
+    font-family:"Exo", sans-serif;
+    font-weight:300;
+    color:#fff; 
+}
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height:120px;
+}
