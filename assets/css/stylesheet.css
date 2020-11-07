@@ -216,3 +216,37 @@ footer{
     margin-bottom:15px;
 
 }
+
+.bg-color-personalinfo{
+    background-color:#f4f4f4;
+}
+
+/*personal info */
+
+.personal-info-item{
+    margin-bottom:20px;
+    display:block;
+    clear:both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value{
+    display: inline-block;
+    padding-right:8px;
+}
+
+.personal-info-item .key{
+    width:30%;
+    margin-right:21px;
+    vertical-align: top;
+    padding-top:2px;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    width:60%;
+    
+}
