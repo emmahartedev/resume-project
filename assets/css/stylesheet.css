@@ -278,11 +278,11 @@ footer{
 /*work history styling */
 .section-heading-history{
     color:#fafafa;
-    margin-bottom:15px;
+    margin-bottom:5px;
 }
 
 .work-history-item{
-    padding:4em 2em 0em 2em;
+    padding:2em 2em 0em 2em;
     border-left:1px solid white;
     position:relative;
     color:#fafafa;
@@ -316,4 +316,5 @@ footer{
 
 .timeline{
     padding: 0 5px;
+    margin-bottom:5px;
 }
