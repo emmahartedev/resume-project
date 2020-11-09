@@ -226,6 +226,9 @@ footer{
     background-color:rgb(145, 17, 145);
 }
 
+.bg-contact-form{
+    background-color: #fafafa;
+}
 /*personal info */
 
 .personal-info-item{
@@ -317,4 +320,34 @@ footer{
 .timeline{
     padding: 0 5px;
     margin-bottom:5px;
+}
+
+/*contact form */
+.contact-heading{
+    font-family:"Exo", sans-serif;
+    font-weight: 400;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+.center-form{
+    padding-top:10px;
+    max-width:70%;
+    margin:0 auto;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom:20px;
+    color: #fafafa;
+    background-color:#e84610;
+}
+
+@media(min-width: 992px){
+    .center-form{
+        padding-top:30px;
+        min-height:240px;
+        max-width:50%;
+        margin:0 auto;
+    }
 }

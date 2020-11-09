@@ -24,19 +24,19 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menu-container">
                             <li class="col-6 col-md-3 list-inline-item nav-bgc-home menuitem">
-                                <a href= "#" class="hvr-sweep-to-bottom">
+                                <a href= "index.html" class="hvr-sweep-to-bottom">
                                     <i class="fas fa-home" aria-hidden="true"></i>
                                     <span> Home</span>
                                 </a>
                             </li>
                             <li class="col-6 col-md-3 list-inline-item nav-bgc-resume menuitem">
-                                <a href= "#" class="hvr-sweep-to-bottom">
+                                <a href= "resume.html" class="hvr-sweep-to-bottom">
                                     <i class="fas fa-file" aria-hidden="true"></i>
                                     <span> Resume</span>
                                 </a>
                             </li>
                             <li class="col-6 col-md-3 list-inline-item nav-bgc-contact menuitem">
-                                <a href= "#" class="hvr-sweep-to-bottom">
+                                <a href= "contact.html" class="hvr-sweep-to-bottom">
                                     <i class="fas fa-id-card-alt" aria-hidden="true"></i>
                                     <span> Contact</span>
                                 </a>
@@ -53,7 +53,25 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-contact-form">
+            <div class="col">
+                <h3 class= "contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class= "contact-heading uppercase text-center">Let's work together!</h5>
+                <div class= "center-form">
+                    <form>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Email" required>
+                        <textarea rows="5" id="projectdescription" class="form-control" name="projectdescription" placeholder="Project Pescription" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Requests</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="container-fluid">
         <div class="row footer-details">
@@ -92,6 +110,6 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
 </html>
